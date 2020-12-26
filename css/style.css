@@ -1,0 +1,206 @@
+        body {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        
+        .img-head {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .img-head img {
+            width: 100%;
+        }
+        
+        .card-main {
+            background-color: var(--light-color);
+            width: 100%;
+            border-top-right-radius: 40px;
+            border-top-left-radius: 40px;
+            margin-top: -50px;
+            z-index: 2;
+            position: relative;
+        }
+        
+        .img-box img {
+            width: 100%;
+        }
+        
+        .nav-item {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            overflow: hidden;
+            margin-left: 4px;
+            font-size: 16px;
+        }
+        
+        .nav-link {
+            background-color: var(--secondary-color)!important;
+            color: var(--text-color) !important;
+            padding: 8px 40px;
+        }
+        
+        .nav-link.active {
+            background-color: var(--primary-color)!important;
+            color: white !important;
+        }
+        
+        .nav-tabs {
+            padding: 0 !important;
+            border: none !important;
+        }
+        
+        .form-control {
+            border-radius: 16px !important;
+            padding: 10px 14px !important;
+        }
+        
+        .tab-content {
+            border: 1px solid #CCC;
+            padding: 20px 8px!important;
+        }
+        
+        label {
+            color: var(--text-color) !important;
+        }
+        
+        .btn-secondary {
+            padding: 3px 40px !important;
+            border-radius: 16px !important;
+            background-color: var( --secondary-color) !important;
+            color: var(--text-color) !important;
+            border: none;
+        }
+        /*--------------
+    responsive of index
+    --------------- */
+        
+        @media only screen and (max-width: 600px) {
+            label {
+                font-size: 12px !important;
+            }
+            .card-main h1 {
+                font-size: 25px;
+                font-size: bold;
+            }
+            .card-main h2 {
+                font-size: 16px;
+                font-size: bold;
+            }
+            .nav-item {
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+        /*--------------
+     css of index-1 -----------------*/
+        
+        .card {
+            border-radius: 25px;
+        }
+        
+        .card-body {
+            padding: 0px;
+        }
+        
+        .table td {
+            border-top: 0px !important;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .card .card-title .img-box-1 {
+                width: 150px;
+                height: 100px;
+            }
+            .card .card-title .img-box-1 img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .second-pass {
+            background-color: var(--successfully-color);
+            color: var(--white-color)!important;
+        }
+        
+        .second-pass::placeholder {
+            color: var(--white-color)!important;
+            font-size: 12px;
+        }
+        /*--------------
+     css of index-2-----------------*/
+        
+        table {
+            border-collapse: collapse;
+            border-radius: 1em;
+            overflow: hidden;
+        }
+        
+        tr:last-child {
+            border-radius: 1em !important;
+        }
+        
+        .table-secondary td,
+        th {
+            border: none !important;
+        }
+        
+        .btn-table td button {
+            color: var(--white-color)!important;
+            border-radius: 20px;
+            padding: 12px 20px;
+        }
+        
+        .btn-share {
+            background-color: var(--orange-color) !important;
+        }
+        
+        .btn-back {
+            background-color: var(--primary-color)!important;
+        }
+        /*--------------
+     responsive of index-2 -----------------*/
+        
+        @media only screen and (max-width: 600px) {
+            .btn-table td button,
+            .btn-table td button {
+                font-size: 10px !important;
+            }
+        }
+
+        .cardImg{
+            width: 25px;
+            height:25px;
+            display: none;
+        }
+        .card-control{
+            border-radius: 16px !important;
+            height: calc(1.5em + .75rem + 2px);
+            padding: 0 .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .input-control{
+            border: none;
+            display: inline;
+            width: 95%;
+            height: 100%;
+            padding: 12px 14px;
+            margin:0;
+            text-align: left;
+        }
+        .input-control:focus{
+            border-color: var(--color-primary);
+            background: #ffffff;
+            outline: none;
+        }
